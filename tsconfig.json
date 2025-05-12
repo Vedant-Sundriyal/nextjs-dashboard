@@ -20,7 +20,8 @@
     ],
     "baseUrl": ".", // keep this
     "paths": {
-    "@/app/*": ["./app/*"] // this supports @/app/...
+    "@/*": ["./*"],        // to support @/auth
+    "@/app/*": ["./app/*"] // to support @/app/...
     }
   },
   "include": [
